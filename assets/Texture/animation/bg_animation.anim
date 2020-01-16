@@ -1,0 +1,111 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bg_animation",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.0166666666666666,
+  "sample": 60,
+  "speed": 0.5,
+  "wrapMode": 54,
+  "curveData": {
+    "paths": {
+      "mogugu": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "d07435cf-57eb-4f27-921d-7ffe52e62b30"
+                }
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": {
+                  "__uuid__": "b6ea35a1-12e2-4697-8eff-3464520b1d0f"
+                }
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": {
+                  "__uuid__": "77703865-5dc1-4581-b970-27a50fdf3de1"
+                }
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__uuid__": "928890dc-5d44-452a-bc34-eea11e12b934"
+                }
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": {
+                  "__uuid__": "d07435cf-57eb-4f27-921d-7ffe52e62b30"
+                }
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": {
+                  "__uuid__": "f63e0caa-6de6-40fa-a342-d18e0c47e4b3"
+                }
+              },
+              {
+                "frame": 1,
+                "value": {
+                  "__uuid__": "928890dc-5d44-452a-bc34-eea11e12b934"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            0,
+            0
+          ],
+          "motionPath": [
+            [
+              184,
+              56,
+              109,
+              6,
+              259,
+              106
+            ]
+          ]
+        },
+        {
+          "frame": 0.5,
+          "value": [
+            300,
+            200
+          ],
+          "motionPath": [
+            [
+              326,
+              334,
+              326,
+              253,
+              326,
+              402
+            ]
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            300,
+            500
+          ],
+          "motionPath": []
+        }
+      ]
+    }
+  },
+  "events": []
+}
