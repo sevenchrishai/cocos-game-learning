@@ -34,6 +34,14 @@ cc.Class({
         audio:{
             default: null,
             type: cc.AudioSource
+        },
+        scroll_view:{
+            type:cc.ScrollView,
+            default:null
+        },
+        scroll_item:{
+            type:cc.Prefab,
+            default:null
         }
     },
 
@@ -97,7 +105,20 @@ cc.Class({
         }, this);
 
         //音乐
-        this.audio = this.node.getChildByName("bg_music").getComponent(cc.AudioSource);
+        // this.audio = this.node.getChildByName("bg_music").getComponent(cc.AudioSource);
+
+
+        // var item1 = cc.instantiate(this.scroll_item);
+        // this.node.addChild(item1);
+        //ScrollView视图
+        for(var i=0;i<10;i++){
+            var item = cc.instantiate(this.scroll_item);//实例化预制体
+            var txt = item.getChildByName("unick");
+            console.log(txt);
+            txt.getComponent(cc.Label).string = "I am NO." + (i+1);
+            this.scroll_view.content.addChild(item);
+        }
+        
 
     },
 

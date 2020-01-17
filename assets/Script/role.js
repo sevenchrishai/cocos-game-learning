@@ -42,7 +42,7 @@ cc.Class({
      * 
      */
     onLoad() {
-        this.bmp_font.string = "hello,my friend";
+        this.bmp_font.string = "hello,my baby";
         var jumpAction = this.setJumpAction();
         this.node.runAction(jumpAction);
         //console.log(this.node.x, this.node.y);
